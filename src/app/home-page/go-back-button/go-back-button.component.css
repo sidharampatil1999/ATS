@@ -1,0 +1,15 @@
+#gobackBtn {
+  color: white;
+  border-radius: 20px;
+  background-color: black;
+  border: 2px solid white;
+  font-size: 200%;
+  transition-duration: 0.4s;
+
+}
+
+#gobackBtn:hover {
+  font-size: 250%;
+  border: 5px solid white;
+}
+

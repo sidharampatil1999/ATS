@@ -1,0 +1,19 @@
+
+
+#appComponentTag{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+}
+
+#mainCont{
+    height:100%
+}
+
+#firstParent{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+

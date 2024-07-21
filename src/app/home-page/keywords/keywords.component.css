@@ -1,0 +1,24 @@
+
+
+#missingKey {
+  padding: 40px;
+}
+
+
+h1 {
+
+  color: white;
+}
+
+
+
+li {
+  font-size: 25px;
+  color: white;
+
+}
+  li::marker {
+    color: red;
+  }
+
+

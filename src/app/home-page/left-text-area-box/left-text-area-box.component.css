@@ -1,0 +1,22 @@
+
+
+textarea[placeholder] {
+  text-align: center;
+  align-content:center;
+  color:black;
+  font-weight:bold;
+
+}
+
+
+textarea {
+  border-radius: 40px;
+  margin: 25px;
+  overflow: hidden;
+  resize: none;
+  height: 90%;
+  width: 90%;
+}
+
+
+

@@ -1,0 +1,52 @@
+
+
+
+form{
+   height:90%
+}
+input{
+    width:100%;
+    margin-top:15px;
+    height:15%;
+    border-radius:40px
+}
+
+textarea {
+  height: 45%;
+  width: 100%;
+  border-radius: 40px;
+  margin-top: 15px;
+  resize: none;
+}
+
+#sendMessageBtn {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  font-size: 200%;
+  transition-duration: 0.4s;
+}
+#sendMessageBtn:hover {
+  font-size: 250%;
+  border: 5px solid white;
+}
+
+#btn{
+    width:100%
+}
+
+input[placeholder], textarea[placeholder] {
+  text-align: center;
+  align-content: center;
+  color: black;
+  font-weight: bold;
+}
+
+#messageToUser{
+    color:red;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+
+

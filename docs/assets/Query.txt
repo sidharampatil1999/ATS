@@ -1,0 +1,35 @@
+USE [SCMCOREAUTOMATION]
+GO
+
+select count(*) from TestResult where TestRunID = 'S882295@CDAUTRUN98 2023-08-18 09:30:21' and testoutcome = 'Passed'  
+
+select count(*) from TestResult where TestRunID = 'S882295@CDAUTRUN98 2023-08-18 09:30:21' and testoutcome = 'Failed'  
+tStartTime between '2023-08-04 12:00'and '2023-08-06 23:30' and TestMachine ='CDAUTRUN98' and testoutcome = 'Failed' 
+S882295@CDAUTRUN98 2023-08-18 09:30:21
+
+
+USE [SCMCOREAUTOMATION]
+GO
+ 
+select   * from TestResult where  TestStartTime between '2024-06-28 19:00'and '2025-08-06 23:30' and TestMachine ='SMMAUTRUNVS2201' order by TestStartTime desc
+
+
+
+select * from TestResult where TestStartTime between '2023-09-08 17:40'and '2024-08-06 23:30' and TestMachine ='SMMAUTRUN15' order by TestStartTime desc
+
+
+select * from TestResult where TestStartTime between '2023-09-01 21:25'and '2024-08-06 23:45' and TestMachine ='CDAUTRUN98' order by TestStartTime desc
+
+USE [SCMCOREAUTOMATION]
+GO
+
+select * from TestResult where TestStartTime between '2022-08-012 17:20'and '2022-08-12 23:30' and TestMachine ='CDAUTRUN98' and TestProject like '%first%' and ClassName like '%ProductivityReport%'  
+
+
+USE [SCMCOREAUTOMATION]
+GO
+
+select * from TestResult where TestStartTime between '2022-08-012 17:20'and '2022-08-12 23:30' and TestMachine ='CDAUTRUN98' and TestProject like '%sec%' and ClassName like '%ProductivityReport%'  
+
+
+

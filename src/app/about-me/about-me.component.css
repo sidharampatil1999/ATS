@@ -1,0 +1,77 @@
+#HeadContainer2 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+
+#HeadlineDiv1 {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+#HeadlineDiv2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+
+}
+
+div {
+  width: 80%
+}
+
+p {
+  font-size: 200%;
+  display: list-item;
+  color: white;
+}
+
+.paragraph1 {
+  margin-top: 25px;
+}
+
+
+
+span {
+
+  color: red;
+}
+
+#actualForm {
+  display: flex;
+  height: 50%;
+  width:80%;
+  margin-bottom:25px;
+}
+
+#leftSide {
+  height: 100%;
+  width: 100%;
+  display:flex;
+  justify-content:center;
+ 
+}
+
+@media (max-width:926px) {
+
+  #HeadlineDiv1 {
+    margin-top: 140px;
+  }
+}
+
+
+@media (max-width:926px) {
+  #HeadContainer2 {
+    height: 300vh;
+  }
+}

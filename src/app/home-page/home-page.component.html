@@ -1,0 +1,130 @@
+<!--<div id="mainContainer">
+
+  <div id="subContainer">-->
+<!--@if(step != 3){
+
+<div id="leftContainer">
+  @if(step != 3){
+  <app-left-text-area-box></app-left-text-area-box>
+  }
+</div>
+}
+@else{
+<app-keywords></app-keywords>
+}-->
+<!--<div id="leftContainer">
+  @if(step != 3){
+  <app-left-text-area-box></app-left-text-area-box>
+  }
+  @else {
+  <app-keywords></app-keywords>
+  }
+</div>
+<div id="rightContainer">
+
+  <div id="headingContainer">
+    @switch(step){
+    @case(1){
+    <h1>Step 1: Copy Job Description.</h1>
+    }
+    @case(2){
+    <h1>Step 2: Copy Your Resume.</h1>
+    }
+    @case(3){
+    <h1>Last Step : Add missing keywords in your resume.</h1>
+    }
+    }
+  </div>
+  <div id="messageContainer">
+    @switch(step){
+    @case(1){
+    <p>Please copy the job description & make sure you copy only neccessary data like technical skill, roles & responsibility.</p>
+    }
+    @case(2){
+    <p>Copy complete resume which includes different section like skills, experience & personal details.</p>
+    }
+    @case(3){
+    <p>Please add missing keywords in your resume. <br /> For e.g missing keyword - 'stakeholder', so you can add "I actively with stakeholder to understand requirment, planning & story point estimation." </p>
+    }
+    }
+  </div>
+
+  @if(step != 3){
+  <div id="rightLowerTopContainer">
+    <app-next-button></app-next-button>
+  </div>
+  }
+  @if(step != 1){
+  <div id="rightLowerBottomContainer">
+    <app-go-back-button></app-go-back-button>
+  </div>
+  }-->
+<!--<div id="rightLowerContainer">
+
+</div>-->
+<!--<video loop autoplay  width="700">
+  <source src="../assets/DemoGuide.mp4" type="video/mp4" />
+</video>-->
+<!--</div>
+  </div>
+</div>-->
+
+
+
+<div id="HeadContainer" >
+  <div id="subContainer" >
+
+    <div id="leftContainer" >
+    @if(step != 3){
+    <app-left-text-area-box></app-left-text-area-box>
+    }
+    @else {
+    <app-keywords></app-keywords>
+    }
+    </div>
+
+    <div id="rightContainer" >
+      <div id="headingContainer">
+        @switch(step){
+        @case(1){
+        <h1>Step 1: Copy Job Description.</h1>
+        }
+        @case(2){
+        <h1>Step 2: Copy Your Resume.</h1>
+        }
+        @case(3){
+        <h1>Last Step : Add missing keywords in your resume.</h1>
+        }
+        }
+      </div>
+
+      <div id="messageContainer">
+        @switch(step){
+        @case(1){
+        <p>Please copy the job description & make sure you copy only necessary data like technical skill, roles & responsibility.</p>
+        }
+        @case(2){
+        <p>Copy complete resume which includes different section like skills, experience & personal details.</p>
+        }
+        @case(3){
+        <p>Please add missing keywords in your resume. <br /> For e.g missing keyword - 'stakeholder', so you can add "I actively with stakeholder to understand requirement, planning & story point estimation." </p>
+        }
+        }
+      </div>
+
+
+      @if(step != 3){
+      <div id="rightLowerTopContainer">
+        <app-next-button></app-next-button>
+      </div>
+      }
+      @if(step != 1){
+      <div id="rightLowerBottomContainer">
+        <app-go-back-button></app-go-back-button>
+      </div>
+      }
+
+    </div>
+    </div>
+
+  </div>
